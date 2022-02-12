@@ -1,0 +1,106 @@
+@import './config.scss';
+
+.container{
+    margin: 38vh 0 130px 0;
+    height: 380px;
+    width: 70%;
+    animation: testanim ease 0.8s;
+    @extend %flex-between;
+    @media (max-width: 1024px){
+        height: 60%;
+        flex-direction: column;
+        margin: 20vh 0 50px 0;
+    }
+    @media (max-width: 640px){
+        width: 90%;
+        margin: 20vh 0 10vh 0;
+    }
+
+}
+
+.homeText{
+    color: #D0D6F9;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 500px;
+    @media (max-width: 1024px){
+        align-items: center;
+        text-align: center;
+        margin-bottom: 150px;
+    }
+    @media(max-width:640px){
+        width: 90%;
+        margin-bottom: 100px;
+    }
+    #spaceTxt{
+        font-size: 150px;
+        font-weight: 400;
+        color: white;
+        margin-left: 10px;
+        font-family: 'Bellefair', serif;
+        margin-bottom: 30px;
+        @media (max-width: 1024px){
+            margin-bottom: 20px;
+        }
+        @media(max-width:640px){
+            font-size: 80px;
+        }
+    }
+    &__title{
+        font-size: 28px;
+        font-weight: 400;
+        letter-spacing: 4.7px;
+        margin-bottom: 25px;
+        @media (max-width: 1024px){
+            font-size: 20px;
+            letter-spacing: 3.3px;
+            margin-bottom: 20px;
+        }
+    }
+    &__text{
+        line-height: 32px;
+        font-size: 18px;
+        font-weight: 400;
+        @media (max-width: 1024px){
+            font-size: 16px;
+            line-height: 28px;
+        }
+        @media(max-width: 640px){
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
+}
+.exploreContain{
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    #explore{
+        height: 242px;
+        width: 242px;
+        border-radius: 50%;
+        background-color: #fff;
+        border:none;
+        font-family: 'Bellefair', serif;
+        font-size: 32px;
+        letter-spacing: 2px;
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &:hover{
+            transition: 0.3s ease-in-out;
+            box-shadow: 0px 0px 0px 35px rgba(255, 255, 255, 0.103)
+        }
+        @media(max-width: 640px){
+            width: 150px;
+            height: 150px;
+            font-size: 20px;
+        }
+    }
+}

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600&family=Bellefair&family=Open+Sans:wght@300;400;700&display=swap');
+@import url(./config.scss);
+@import url(./navBar.scss);
+@import url(./home.scss);
+@import url(./destination.scss);
+@import url(./crew.scss);
+@import url(./technology.scss);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+
+}
+#root{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.home{
+    background: url('../assets/home/background-home-desktop.jpg') center/cover;
+    background-color: black;
+    @media (max-width: 1024px){
+        background: url('../assets/home/background-home-tablet.jpg')  ;
+        background-size: cover;
+        background-color: black;
+    }
+    @media(max-width:640px){
+        background: url('../assets/home/background-home-mobile.jpg');
+        background-size: cover;
+        background-color: black;
+    }
+}
+.destination{
+    background: url('../assets/destination/background-destination-desktop.jpg') center/cover;
+    background-color: black;
+    @media (max-width: 1024px){
+        background: url('../assets/destination/background-destination-tablet.jpg')  ;
+        background-size: cover;
+        background-color: black;
+    }
+    @media(max-width:640px){
+        background: url('../assets/destination/background-destination-mobile.jpg');
+        background-size: cover;
+        background-color: black;
+    }
+}
+.crew{
+    background: url('../assets/crew/background-crew-desktop.jpg') center/cover;
+    background-color: black;
+    @media (max-width: 1024px){
+        background: url('../assets/crew/background-crew-tablet.jpg')  ;
+        background-size: cover;
+        background-color: black;
+    }
+    @media(max-width:640px){
+        background: url('../assets/crew/background-crew-mobile.jpg');
+        background-size: cover;
+        background-color: black;
+    }
+}
+.technology{
+    background: url('../assets/technology/background-technology-desktop.jpg') center/cover;
+    background-color: black;
+    @media (max-width: 1024px){
+        background: url('../assets/technology/background-technology-tablet.jpg')  ;
+        background-size: cover;
+        background-color: black;
+    }
+    @media(max-width:640px){
+        background: url('../assets/technology/background-technology-mobile.jpg');
+        background-size: cover;
+        background-color: black;
+    }
+}

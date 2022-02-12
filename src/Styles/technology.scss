@@ -1,0 +1,215 @@
+
+.technologyContainer{
+    min-height: 100vh;
+    width: 100%;
+    padding: 28vh 0 50px 10%;
+    @media(max-width: 1245px) {
+        padding: 28vh 0 50px 5%;
+    } 
+    @media(max-width: 1024px){
+        padding: 20vh 0 0 0;
+    }
+    @media(max-width: 640px){
+        padding: 17vh 0 10vh 0;
+    }
+
+    .title{
+        font-weight: 400;
+        font-size: 28px;
+        letter-spacing: 4.725px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin: 0 0 30px 0;
+        @media(max-width: 1245px){
+            margin: 0 0 60px 0%;
+        }
+        @media (max-width: 1024px){
+            font-size: 20PX;
+            letter-spacing: 3.375px;
+            margin: 0 0 60px 5%;
+        }
+        @media (max-width: 640px){
+            text-align: center;
+            margin: 0 0 60px 0%;
+            font-size: 16px;
+            letter-spacing: 2.7px;
+        }
+        span{
+            margin-right: 15px;
+            color: rgba(255, 255, 255, 0.253);
+            font-weight: 700;
+        }
+    }
+
+    .technologyInfos{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        @media (max-width: 1024px){
+          flex-direction: column;
+          position: relative;
+        }
+        @media (max-width: 640px){
+
+        }
+
+        &__buttons{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 570px;
+            margin-right: 7%;
+            @media(max-width: 1245px) {
+                height: 400px;
+            }
+            @media (max-width: 1024px){
+                flex-direction: row;
+                height: auto;
+                margin: 0;
+                position: absolute;
+                top: 340px;
+            }
+            @media (max-width: 640px){
+                top: 200px;
+            }
+            .buttonSelected{
+                color: black;
+                background-color: white;
+            }
+            button{
+                height: 80px;
+                width: 80px;
+                border-radius: 50%;
+                color: white;
+                border: 1px rgba(255, 255, 255, 0.25) solid;
+                background-color: black;
+                margin: 20px 0px;
+                font-size: 32px;
+                font-weight: 400;
+                font-family: 'Bellefair';
+                cursor: pointer;
+                &:hover{
+                    border: solid 1px white;
+                }
+                @media (max-width: 1245px){
+                    height: 60px;
+                    width: 60px;
+                    font-size: 24px;
+                }
+                @media (max-width: 1024px){
+                    margin: 0 10px;
+                }
+                @media (max-width: 640px){
+                    height: 40px;
+                    width: 40px;
+                    font-size: 16px;
+                }
+            }
+        }
+        .mapContainer{
+            align-items: center;
+            justify-content: space-between;
+            animation: testanim 1s ease;
+            width: 100%;
+            @media (max-width: 1024px){
+                flex-direction: column-reverse;
+            }
+            @media (max-width: 640px){
+              
+            }
+        }
+        &__image{
+            height: 570px;
+            @media(max-width: 1245px) {
+                height: 400px;
+            }
+            @media (max-width: 1024px){
+                width: 100%;
+                height: 300px;
+                object-fit: cover;
+            }
+            @media (max-width: 640px){
+              height: 170px;
+            }
+        }
+        &__infos{
+            width: 470px;
+            height: 303px;
+            margin-right: 20px;
+            @media (max-width: 1024px){
+               margin: 140px 0 0 0;
+            }
+            @media (max-width: 640px){
+                margin: 100px 0 0 0;
+                width: 90%;
+                height: auto;
+            }
+            &--title{
+                color: #D0D6F9;
+                font-size: 16px;
+                font-weight: 400;
+                letter-spacing: 2.7px;
+                margin-bottom: 10px;
+                @media(max-width: 1245px){
+                    
+                }
+                @media (max-width: 1024px){
+                   text-align: center;
+                }
+                @media (max-width: 640px){
+                    letter-spacing: 2.3625px;
+                    font-size: 14px;
+                }
+            }
+
+            &--name{
+                font-family: 'Bellefair';
+                font-weight: 400;
+                color: #FFFFFF;
+                font-size: 56px;
+                text-transform: uppercase;
+                margin-bottom: 20px;
+                @media(max-width: 1245px){
+                    font-size: 40px;
+                }
+                @media (max-width: 1024px){
+                    text-align: center;
+                }
+                @media (max-width: 640px){
+                    font-size: 24px;
+                }
+            }
+
+            &--description{
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 32px;
+                color: #D0D6F9;
+                padding-right: 40px;
+                @media(max-width: 1245px){
+                    
+                    font-size: 16px;
+                    line-height: 28px;
+                }
+                @media (max-width: 1024px){
+                   text-align: center;
+                   padding: 0;
+                }
+                @media (max-width: 640px){
+                    font-size: 15px;
+                    line-height: 25px;
+                }
+            }
+        }
+    }
+}
+
+@keyframes testanim {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

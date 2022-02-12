@@ -1,0 +1,184 @@
+@import './config.scss';
+
+.crewContainer{
+    padding: 28vh 0 0px 0;
+    width: 80%;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: rgb(255, 255, 255);
+    @media(max-width: 1245px){
+        width: 100%;
+    }
+    @media (max-width: 1024px){
+        margin: 0;
+        padding: 20vh 0 0px 0;
+    }
+    @media (max-width: 640px){
+        width: 100%;
+        margin: 0;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 17vh 0 0px 0;
+    }
+    .title{
+        font-weight: 400;
+        font-size: 28px;
+        letter-spacing: 4.725px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin: 0 0 60px 0;
+        @media(max-width: 1245px){
+            margin: 0 0 60px 5%;
+        }
+        @media (max-width: 1024px){
+            font-size: 20PX;
+            letter-spacing: 3.375px;
+        }
+        @media (max-width: 640px){
+            text-align: center;
+            margin: 0 0 60px 0%;
+            font-size: 16px;
+            letter-spacing: 2.7px;
+        }
+        span{
+            margin-right: 15px;
+            color: rgba(255, 255, 255, 0.253);
+            font-weight: 700;
+        }
+    }
+}
+.crewInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    animation: ease 0.6s testanim;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    @media(max-width: 1245px){
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    @media (max-width: 640px){
+        width: 90%;
+        flex-direction: column-reverse;
+    }
+    .crewLeft{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: end;
+        padding-bottom: 10%;
+        width: 615px;
+        @media(max-width: 1245px){
+            padding-bottom: 15px;
+            text-align: center;
+            margin: 0 0 30px;
+        }
+        @media (max-width: 640px){
+            width: 100%;
+            padding-top: 60px;
+            position: relative;
+            border-top: 1px solid  #383B4B;;
+        }
+        &__role{
+            font-size: 32px;
+            font-family: 'Bellefair';
+            text-transform: uppercase;
+            color: #ffffff50;
+            font-weight: 400;
+            margin: 15px 0;
+            width: 600px;
+            @media(max-width: 1245px){
+                width: 100%;
+            }
+            @media(max-width: 640px) {
+                font-size: 16px;
+            }
+        }
+        &__name{
+            font-family: 'Bellefair';
+            font-size: 56px;
+            text-transform: uppercase;
+            font-weight: 400;
+            margin: 0px 0px 20px;
+            @media(max-width: 1245px){
+                width: 100%;
+            }
+            @media(max-width: 640px){
+                font-size: 24px;
+            }
+        }
+        &__bio{
+            font-size: 18px;
+            line-height: 32px;
+            color:#D0D6F9;
+            font-weight: 400;
+            padding-right: 120px;
+            margin: 0px 0px 117px;
+            height: 125px;
+            @media(max-width: 1245px){
+                width: 100%;
+                padding: 0;
+                margin: 0 0 10px;
+            }
+            @media(max-width: 640px){
+                font-size: 15px;
+                line-height: 25px;
+            }
+        }
+        &__buttons{
+            @media(max-width: 1245px){
+                width: 100%;
+            }
+            @media(max-width: 640px) {
+                position: absolute;
+                top: 25px;
+            }
+            button{
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                background-color: rgba(255, 255, 255, 0.17);
+                margin: 0px 8px;
+                border: none;
+                &:hover{
+                    background: rgba(255, 255, 255, 0.5);
+                    cursor: pointer;
+                }
+                @media(max-width: 640px){
+                    width: 10px;
+                    height: 10px;
+                }
+            }
+        }
+    }
+    .crewRight{
+        position: absolute;
+        right: 0%;
+        bottom: 0;
+        height: 110%;
+        @media(max-width: 1245px){
+            position: unset;
+        }
+        @media (max-width: 1024px){
+            height: 600px;
+        }
+        @media(max-width: 640px) {
+            height: 223px;
+        }
+    }
+}
+
+@keyframes testanim {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
