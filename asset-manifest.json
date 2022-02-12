@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/reactproject1/static/css/main.4e164767.css",
+    "main.js": "/reactproject1/static/js/main.4c5064e7.js",
+    "static/js/787.bf6be71c.chunk.js": "/reactproject1/static/js/787.bf6be71c.chunk.js",
+    "static/media/image-spaceport-portrait.jpg": "/reactproject1/static/media/image-spaceport-portrait.b597cd94781f4bf3ec49.jpg",
+    "static/media/image-victor-glover.png": "/reactproject1/static/media/image-victor-glover.8a9a5424588b73ec61c2.png",
+    "static/media/image-anousheh-ansari.png": "/reactproject1/static/media/image-anousheh-ansari.2d647128496ddc638acd.png",
+    "static/media/image-mark-shuttleworth.png": "/reactproject1/static/media/image-mark-shuttleworth.fc30f35b05fc0bc4ee47.png",
+    "static/media/image-douglas-hurley.png": "/reactproject1/static/media/image-douglas-hurley.7540fbb61923064f065e.png",
+    "static/media/background-home-desktop.jpg": "/reactproject1/static/media/background-home-desktop.cdf3864ecbfdf20e8c3b.jpg",
+    "static/media/image-moon.png": "/reactproject1/static/media/image-moon.d287d07182de3015952f.png",
+    "static/media/background-destination-desktop.jpg": "/reactproject1/static/media/background-destination-desktop.468b922c69bf5499b4bc.jpg",
+    "static/media/image-europa.png": "/reactproject1/static/media/image-europa.3e95f7d0a16fe2ebf4c6.png",
+    "static/media/image-anousheh-ansari.webp": "/reactproject1/static/media/image-anousheh-ansari.bb42b775ee0b12430f3a.webp",
+    "static/media/background-home-tablet.jpg": "/reactproject1/static/media/background-home-tablet.bc9efcc3281fa6801077.jpg",
+    "static/media/image-mars.png": "/reactproject1/static/media/image-mars.1b224c8663251270d79f.png",
+    "static/media/image-spaceport-landscape.jpg": "/reactproject1/static/media/image-spaceport-landscape.0f3ca5c05a3e87191ea7.jpg",
+    "static/media/background-crew-desktop.jpg": "/reactproject1/static/media/background-crew-desktop.88a3c692fd34eb311e04.jpg",
+    "static/media/background-destination-tablet.jpg": "/reactproject1/static/media/background-destination-tablet.8f55d346d8b6cfd95ab7.jpg",
+    "static/media/image-titan.png": "/reactproject1/static/media/image-titan.d4b078f9ce17e686ae99.png",
+    "static/media/background-technology-desktop.jpg": "/reactproject1/static/media/background-technology-desktop.b7b589b3c0c5ef0811d4.jpg",
+    "static/media/image-launch-vehicle-landscape.jpg": "/reactproject1/static/media/image-launch-vehicle-landscape.3498955aca2e61925a8a.jpg",
+    "static/media/background-crew-tablet.jpg": "/reactproject1/static/media/background-crew-tablet.16d51cf61e98ce45eb61.jpg",
+    "static/media/image-space-capsule-portrait.jpg": "/reactproject1/static/media/image-space-capsule-portrait.dd0ac138afef98c1666a.jpg",
+    "static/media/image-space-capsule-landscape.jpg": "/reactproject1/static/media/image-space-capsule-landscape.d672da81d5ff3ada7301.jpg",
+    "static/media/image-launch-vehicle-portrait.jpg": "/reactproject1/static/media/image-launch-vehicle-portrait.0c758955a178bdcc3230.jpg",
+    "static/media/background-home-mobile.jpg": "/reactproject1/static/media/background-home-mobile.13f7adecbcb3c3f170d8.jpg",
+    "static/media/background-technology-tablet.jpg": "/reactproject1/static/media/background-technology-tablet.48c38b028217ee0096c4.jpg",
+    "static/media/background-destination-mobile.jpg": "/reactproject1/static/media/background-destination-mobile.e0131e27e751ead1a922.jpg",
+    "index.html": "/reactproject1/index.html",
+    "static/media/logo.svg": "/reactproject1/static/media/logo.565f7f2c0534403f11b71994f4311210.svg",
+    "static/media/icon-close.svg": "/reactproject1/static/media/icon-close.d47fda63cbd8b3fedbbc1b2a53f64470.svg",
+    "static/media/icon-hamburger.svg": "/reactproject1/static/media/icon-hamburger.5273efa7c50e96ef3e51e7a2b54048ce.svg",
+    "main.4e164767.css.map": "/reactproject1/static/css/main.4e164767.css.map",
+    "main.4c5064e7.js.map": "/reactproject1/static/js/main.4c5064e7.js.map",
+    "787.bf6be71c.chunk.js.map": "/reactproject1/static/js/787.bf6be71c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e164767.css",
+    "static/js/main.4c5064e7.js"
+  ]
+}
