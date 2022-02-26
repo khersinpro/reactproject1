@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reactproject1/static/css/main.4e164767.css",
-    "main.js": "/reactproject1/static/js/main.4c5064e7.js",
+    "main.css": "/reactproject1/static/css/main.df104d6f.css",
+    "main.js": "/reactproject1/static/js/main.bb3047b9.js",
     "static/js/787.bf6be71c.chunk.js": "/reactproject1/static/js/787.bf6be71c.chunk.js",
     "static/media/image-spaceport-portrait.jpg": "/reactproject1/static/media/image-spaceport-portrait.b597cd94781f4bf3ec49.jpg",
     "static/media/image-victor-glover.png": "/reactproject1/static/media/image-victor-glover.8a9a5424588b73ec61c2.png",
@@ -32,12 +32,12 @@
     "static/media/logo.svg": "/reactproject1/static/media/logo.565f7f2c0534403f11b71994f4311210.svg",
     "static/media/icon-close.svg": "/reactproject1/static/media/icon-close.d47fda63cbd8b3fedbbc1b2a53f64470.svg",
     "static/media/icon-hamburger.svg": "/reactproject1/static/media/icon-hamburger.5273efa7c50e96ef3e51e7a2b54048ce.svg",
-    "main.4e164767.css.map": "/reactproject1/static/css/main.4e164767.css.map",
-    "main.4c5064e7.js.map": "/reactproject1/static/js/main.4c5064e7.js.map",
+    "main.df104d6f.css.map": "/reactproject1/static/css/main.df104d6f.css.map",
+    "main.bb3047b9.js.map": "/reactproject1/static/js/main.bb3047b9.js.map",
     "787.bf6be71c.chunk.js.map": "/reactproject1/static/js/787.bf6be71c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e164767.css",
-    "static/js/main.4c5064e7.js"
+    "static/css/main.df104d6f.css",
+    "static/js/main.bb3047b9.js"
   ]
 }
