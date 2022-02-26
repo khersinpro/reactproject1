@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Destination from './components/Destination'
 import Crew from './components/Crew';
 import Technology from './components/Technology';
+import NotFound from './components/NotFound';
 import './Styles/main.scss';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/reactproject1/destination" element={<Destination />} />
           <Route path='/reactproject1/crew' element={<Crew />} />
           <Route path='/reactproject1/technology' element={<Technology />} />
+          <Route path='/reactproject1/*' element={<NotFound />} />
         </Routes>
       </BrowserRouter>
 
